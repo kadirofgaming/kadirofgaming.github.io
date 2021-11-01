@@ -1,4 +1,3 @@
-
 *{
     padding:0;
     margin:0;
@@ -12,11 +11,17 @@
 	bottom: 220px;
 }
 .carousel-caption h5 {
-	font-size: 45px;
+	font-size: 40px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 25px;
 	font-family: merienda;
+	COLOR: rgb(157, 216, 101);
+	background-color:rgb(78, 26, 26);
+	border-start-end-radius: 15px;
+	border-end-end-radius: 15px;	
+	border-bottom-left-radius: 15px;	
+	border-start-start-radius: 15px;
 }
 .carousel-caption p {
 	width: 60%;
@@ -27,10 +32,10 @@
 }
 .carousel-caption a {
 	text-transform: uppercase;
-	background-color: red;
+	background: #607c32;
 	padding: 10px 30px;
 	display: inline-block;
-	color: #fff;
+	color: rgb(182, 220, 255);
 	margin-top: 15px;
 }
 .navbar-nav a {
@@ -38,19 +43,32 @@
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: bold;
+	border-start-end-radius: 20px;
+	border-end-end-radius: 20px;	
+	border-bottom-left-radius: 20px;	
+	border-start-start-radius: 20px;
+	background-color: rgb(80, 93, 168);
+	
 }
 .navbar-light .navbar-brand {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
+	background-color: rgb(69, 109, 150);
+	border-start-end-radius: 15px;
+	border-end-end-radius: 15px;	
+	border-bottom-left-radius: 15px;	
+	border-start-start-radius: 15px;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 .navbar-light .navbar-nav .nav-link {
-	color: #fff;
+	color: rgb(255, 255, 255);
+	
+	
 }
 .navbar-nav {
 	text-align: center;
@@ -59,16 +77,17 @@
 	padding: .2rem 1rem;
 }
 .nav-link.active, .nav-link:focus {
-	color: #fff;
+	color: #ffffff;
 }
 .navbar-toggler {
 	padding: 1px 5px;
 	font-size: 18px;
 	line-height: 0.3;
-	background: rgb(255, 255, 255);
+	background: rgb(255, 246, 246);
+	
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 .w-100 {
 	height: 100vh;

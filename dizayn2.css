@@ -58,7 +58,7 @@
 	padding: .2rem 1rem;
 }
 .nav-link.active, .nav-link:focus {
-	color: #23643;
+	color:red;
 }
 .navbar-toggler {
 	padding: 1px 5px;

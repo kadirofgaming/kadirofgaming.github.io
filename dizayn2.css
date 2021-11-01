@@ -27,7 +27,7 @@
 }
 .carousel-caption a {
 	text-transform: uppercase;
-	background: red;
+	background-color: red;
 	padding: 10px 30px;
 	display: inline-block;
 	color: #fff;

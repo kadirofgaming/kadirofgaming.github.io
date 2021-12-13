@@ -21,17 +21,7 @@ body {
 }
 
 
-#insta a{
-    text-align: center;
-    text-decoration: none;
-    width:50px;
-    font-size: 18px;
-    padding-left: 19%;
-    
-}
-#insta mark{
-    background-color: rgb(145, 95, 95);
-}
+
 
 h1{
     font-size: 52px;
@@ -562,6 +552,19 @@ h4{
     50% {left: -200%;}
     75% {left: -100%;}
     100% {left: 0;}
+}
+
+
+#insta a{
+    text-align: center;
+    text-decoration: none;
+    width:50px;
+    font-size: 18px;
+    padding-left: 35.9%;
+    
+}
+#insta mark{
+    background-color: rgb(145, 95, 95);
 }
 
 

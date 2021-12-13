@@ -568,6 +568,15 @@ h4{
 }
 
 
+#insta i{
+    color:hotpink;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 13%;
+    font-size: 35px;
+}
+
+
 .contactTop{
     text-align:center;
 }

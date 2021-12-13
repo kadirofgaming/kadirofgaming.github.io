@@ -20,6 +20,19 @@ body {
    font-family: 'Raleway';
 }
 
+
+#insta a{
+    text-align: center;
+    text-decoration: none;
+    width:50px;
+    font-size: 18px;
+    padding-left: 19%;
+    
+}
+#insta mark{
+    background-color: rgb(145, 95, 95);
+}
+
 h1{
     font-size: 52px;
     letter-spacing: 4px;

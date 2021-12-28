@@ -11,7 +11,14 @@
 }
 
 
+/* TEXNIKI SETTINGS */
 
+#border1{
+    border: 2px solid rgb(98, 133, 65);
+    padding-top: 1%;
+    margin:120px;
+    
+}
 
 #texniki1{
     margin-top: 200px;
@@ -26,9 +33,20 @@
     margin-bottom: 50px;
     text-align: center;
     font-size: 20px;
+    
 
 }    
 
+
+
+#texniki3{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
 
 
 
@@ -41,7 +59,15 @@
 #dll{
     text-align: center;
     margin-top: 100px;
+    
+    
 }
+
+
+dll :visited{
+    font-size: larger;
+}
+
 
 
 #dll1{
@@ -52,15 +78,17 @@
     padding-left: 1%;
     margin-left: 15%;
     margin-right: 15%;
-    background-color: #91bbbe;
+    background-color: #56ad6c;
     color:#641313 ;
+    border-radius: 35px;
 }
 
 #odenis{
     text-align: center;
     font-size: 20px;
     margin-top: 2%;
-    background-color:#91bbbe;
+    background-color:#56ad6c;
+    border-radius: 10px;
     border: solid 1px;
     
     margin-left: 42%;
@@ -165,6 +193,23 @@ h3{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HOME SETTINGS*/
 
 .kecis {
@@ -249,6 +294,56 @@ h3{
 
 .featuresTop{
     text-align: center;
+}
+
+
+.mobil{
+    text-align: center;
+    margin:10px;
+    
+
+    border:1px solid;
+    margin-right:85%;
+}
+
+.mobil1{
+    margin:10px;
+    margin-left:20%;
+    padding-right:11%;
+    border:1px solid;
+    margin-right:85%;
+}
+
+#mobil1{
+    text-align:center;
+
+}
+
+.mobil2{
+    text-align: center;
+    margin:10px;
+    
+    margin-left:20%;
+    border:1px solid;
+    margin-right:85%;
+}
+
+.mobil3{
+    text-align: center;
+    margin:10px;
+    
+
+    border:1px solid;
+    margin-right:85%;
+}
+
+.mobil4{
+    text-align: center;
+    margin:10px;
+    
+
+    border:1px solid;
+    margin-right:85%;
 }
 
 

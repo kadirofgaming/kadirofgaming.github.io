@@ -4,6 +4,7 @@
 }
 
 
+
 #mobil{
     
     background-position: fixed;
@@ -267,7 +268,7 @@ h3{
 
 #mainSlider{
     height: 500px;
-    background: url('../img/logo 2.jpg') center center no-repeat;
+    background: url('../img/logo\ 2.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -414,7 +415,7 @@ h3{
                 rgba(0, 0, 0, 0.7),
                 rgba(0, 0, 0, 0.7)
     ),
-    url('../img/foto9.jpg');
+    url('../img/sinama.png');
     background-attachment: fixed;
     background-size:cover;
     background-position: center;
@@ -573,7 +574,7 @@ h4{
 
  #projectX .containerFluid{
      height: 500px;
-     background: url('../img/yotube.jpg') center center no-repeat;
+     background: url('../img/sinama.png') center center no-repeat;
      background-size: cover;
  }
 

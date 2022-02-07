@@ -244,11 +244,12 @@ h3{
 
  .menu a{
      float:left;
+     font-size: 13px;
      
  }
 
  .menu  a{
-     padding: 27px 17px;
+     padding: 26px 7px;
      display:block;
      text-decoration:none;
      letter-spacing: 2px;

@@ -1,277 +1,49 @@
-<!DOCTYPE html>
+
+<!Doctype html>
+
+
 <html lang="en">
+    
 
 <head>
+      <script src="https://kit.fontawesome.com/c20485228a.js" crossorigin="anonymous"></script>
+      <meta charset="utf-8">
+      <meta name="description" content="Kadirof Texno">
+      <meta name="author" content="Oyunlar">
+      <meta name="keywords" content="HTML, CSS, Yazilar">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kadirof Texno</title>
-    <link rel='icon' href="img/balaca logo.png">
+      <title>
+          Kadirof Texno
+      </title>
+ 
+      <link rel='icon' href="img/balaca logo.png">
 
-    <!--Icon linkleri qarrdasim-->
+ 
 
-    <link rel="shortcut icont" href="img/fav.png" type="image/x-icon">
 
-    <!--Css ucun link brat-->
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--Box Icons-->
-
-    <link  href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
-    <!--Swiper ucun link ama css olan-->
-
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-
+<link rel="stylesheet" type="text/css" href="reset.css">
+     
+<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
+
 <body>
 
-    <!-- Custom Scroll Bar -->
 
-    <div class="progress">
-        <div class="progress-bar" id="scroll-bar">
 
-        </div>
-    </div>
 
-    <!--Header-->
+
+
+    
+
+
+
+
 
     <header>
-
-        <!--Nav-->
-
-        <div class="nav container">
-
-            <!-- LOGO brat-->
-
-            <a class="logo" href="index.html"><img src="img/logom.png"></a>
-
-            <!--Navbar iconlari-->
-
-            <div class="nav-icons">
-                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
-                <i class='bx bxs-download' ></i>
-                <div class="menu-icon">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-            </div>
-
-            <!--Menu basladi-->
-
-            <div class="menu">
-                <img src="img/menu.png" alt="">
-                <div class="navbar">
-                    <li> <a href="index.html">Esas</a></li>
-                    <li> <a href="#new">Programlar</a></li>
-                    <li> <a href="oyunlar.html">Oyunlar</a></li>
-                    <li> <a href="#contact">Elaqe</a></li>
-                </div>
-            </div>
-
-            <!--Bildirisler-->
-
-            <div class="notification">
-                <div class="notification-box">
-                    <i class='bx bxs-check-circle' ></i>
-                    <p>Yeni dizayn vatana millete hayirli olsun</p>
-                </div>
-                <div class="notification-box box-color">
-                    <i class='bx bxs-x-circle' ></i>
-                    <p>Yuklemelere davam ede bilersiniz</p>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!--Esas sehife basla-->
-
-    <section class="home container" id="home">
-        <img src="img/home.png" alt="">
-        <div class="home-text">
-            <h1>AYIN <br> OYUNU</h1>
-            <a href="#" class="btn">İndi yüklə</a>
-        </div>
-    </section>
-
-    <!--Esas sehife bit-->
-
-    
-
-    <!-- New Section Start-->
-    <section class="new container" id="new">
-        <div class="heading">
-            <i class='bx bxs-flame'></i>
-            <h2>Yeni Programlar</h2>
-        </div>
-
-        <!--Content-->
-
-        <div class="new-content">
-
-            <!--Box 1-->
-
-            <div class="box">
-                <img src="img/new1.jpg" alt="">
-                <div class="box-text">
-                    <h2>Autocad 2020</h2>
-                    <h3>dizayn,qrafika</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>5 azn</span>
-                        </div>
-                        <a href="download.html" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Box 2-->
-
-            <div class="box">
-                <img src="img/archicad20.jpg" alt="">
-                <div class="box-text">
-                    <h2>Archicad 20</h2>
-                    <h3>dizayn,qrafika</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>5 azn</span>
-                        </div>
-                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Box 3-->
-
-            <div class="box">
-                <img src="img/new1.jpg" alt="">
-                <div class="box-text">
-                    <h2>Photoshop</h2>
-                    <h3>dizayn,qrafika</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>pulsuz</span>
-                        </div>
-                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Box 4-->
-
-            <div class="box">
-                <img src="img/new1.jpg" alt="">
-                <div class="box-text">
-                    <h2>Microsofrt Office</h2>
-                    <h3>proqramalar</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>5 azn</span>
-                        </div>
-                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Box 5-->
-
-            <div class="box">
-                <img src="img/new1.jpg" alt="">
-                <div class="box-text">
-                    <h2>Adobe İllustrator</h2>
-                    <h3>dizayn,qrafika</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>pulsuz</span>
-                        </div>
-                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Box 1-->
-
-            <div class="box">
-                <img src="img/new1.jpg" alt="">
-                <div class="box-text">
-                    <h2>Adobe Premiere Pro</h2>
-                    <h3>dizayn,qrafika</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>pulsuz</span>
-                        </div>
-                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Box 1-->
-
-            <div class="box">
-                <img src="img/new1.jpg" alt="">
-                <div class="box-text">
-                    <h2>Adobe XD</h2>
-                    <h3>dizayn,qrafika</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>pulsuz</span>
-                        </div>
-                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!--Box 1-->
-
-            <div class="box">
-                <img src="img/new1.jpg" alt="">
-                <div class="box-text">
-                    <h2>Adobe In Design</h2>
-                    <h3>dizayn,qrafika</h3>
-                    <div class="rating-download">
-                        <div class="rating">
-                            <i class='bx bx-money'></i>
-                            <span>pulsuz</span>
-                        </div>
-                        <a href="#" class="box-btn"><i class='bx bx-down-arrow-alt'></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="next-page">
-            <a href="#">Next Page</a>
-        </div>
-    </section>
-
-    <!-- New Section End-->
-
-    <!-- Copyright -->
-
-    <div class="copyright container">
-        <a class="logo" href="index.html">Kadirof <span>Texno</span></a>
-        <p>&#169; Saytın bütün haqları aiddir <br> (Yusif Qədirli) <br>(yusifqedirli66@gmail.com)</p>
-    </div>
-
-    <!--Swiper ucun link braaat-->
-
-    <script src="js/swiper-bundle.min.js"></script>
-
-    <!--Java Script ucun link braaat ama javascript olan-->
-
-    <script src="js/main.js"></script>
-    
-</body>
-
-
-</html>
+          <div class="container">
+              <div class="logo">
+                  <a href="index.html"><img src="img/logom.png"></a>
+              </div>
+          <div style="font-size: 30px;">YENILENME GEDIR YAXINDA AKTIV OLACAX</div>

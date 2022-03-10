@@ -527,25 +527,67 @@ header{
     transition: 0.3s all linear;
 }
 
+
+
 /* Display Block For Deafault Scroll Bar */
-
-html::-webkit-scrollbar{
-    display: none;
+footer{
+    text-align:center;
+    background-color: #0d81ec;
 }
 
-/* Custom Scroll Bar */
-.progress{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 4px;
-    z-index: 300;
+
+.footerItem{
+    padding: 50px;
 }
 
-.progress-bar{
-    height: 4px;
-    background: var(--main-color);
-    width: 0%;
+.footerItem img{
+    height: 50px;
+    opacity: .5;
+}
+
+footer h3{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing:2px;
+    margin-bottom: 10px;
+}
+
+footer .fa{
+    font-size: 30px;
+    color: #19777e;
+    line-height: 50px;
+    transition: .3s ease;
+}
+
+footer .fa:hover{ 
+    color:#fff;
+    line-height: 20px;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: #95a5a6;
+    letter-spacing: 2px;
+    transition: .3s ease;
+}
+
+.footerLinks a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+
+.sectionArea{
+    padding:80px 0;
+}
+
+.container-1 {
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#sosial{
+    color:black;
 }
 
 /* HER CIHAZA UYGUN DUZELISLER */

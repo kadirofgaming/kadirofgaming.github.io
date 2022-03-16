@@ -13,9 +13,12 @@
 
 /* Variables */
 :root {
+    --main-color: #662861 ;
     /*--main-color: #fa5353 ;
+    /*--main-color: #fa5353 ;
+    --main-color: #0d81ec ;
     /* Ikinci reng secimi*/
-     --main-color: #0d81ec ;
+    
     --dark-color: #1b182b ;
     --light-color: #322f40 ;
     --text-color: hsl(0,0%,91%);

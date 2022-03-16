@@ -24,7 +24,7 @@ var swiper = new Swiper(".trending-content", {
       clickable: true,
     },
     autoplay:{
-        delay:5000,
+        delay:1500,
         disableOnIteraction: false,
     },
     breakpoints: {

@@ -38,7 +38,10 @@ img{
 
 body{
     color: var(--text-color);
-    background: var(--dark-color);
+    background-image: url(https://3.bp.blogspot.com/-rHGW-Pj086E/XJqrXq3DJlI/AAAAAAAABB0/kRGUxP_OqkUmicF3bW129ubAa0myCJs9ACKgBGAs/w5120-h2160-c/sunset-horizon-scenery-landscape-art-uhdpaper.com-4K-178.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .container{

@@ -11,9 +11,9 @@
     scroll-padding-top: 2rem;
 }
 
-/* Variables */
+/* Variables */ 
 :root {
-    --main-color: #bad811 ;
+    --main-color: #d81111 ;
     /*--main-color: #fa5353 ;
     /*--main-color: #fa5353 ;
     --main-color: #0d81ec ;
@@ -41,7 +41,7 @@ img{
 
 body{
     color: var(--text-color);
-    background-image: url(https://wallpaperaccess.com/full/342303.png);
+    background-image: url(https://images.alphacoders.com/516/thumb-1920-516126.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;

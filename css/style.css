@@ -41,7 +41,7 @@ img{
 
 body{
     color: var(--text-color);
-    background-image: url(https://coolhdwall.com/storage/202104/scorpion-mortal-kombat-11-4k-wallpaper-3840x2160-86.jpg);
+    background-image: url(https://i.pinimg.com/originals/14/f1/55/14f15590d4723f4826076d0620979cfa.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -416,6 +416,7 @@ header{
     font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 0.8rem;
+    font-family: 'EB Garamond';
 }
 
 .rating-download{

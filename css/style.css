@@ -63,6 +63,23 @@ header{
     
 }
 
+/* SCROLL BAR QAQAM */
+
+::-webkit-scrollbar{
+    width: 0.7em;
+}
+
+::-webkit-scrollbar-track{
+    background-image: url(https://netresim.com/bilesenler/dosya/dosyalar/image/galeriler/25.01.2020/oresim/syncfade-renkli-arka-plan-masaustu-resmi.jpg);
+}
+
+::-webkit-scrollbar-thumb{
+    background:rgb(76, 139, 85);
+    border-radius: 100vw;
+}
+
+
+
 /* Nav */
 .nav {
     display: flex;

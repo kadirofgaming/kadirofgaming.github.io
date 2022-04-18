@@ -13,7 +13,8 @@
 
 /* Variables */ 
 :root {
-    --main-color: #d81111 ;
+    
+    --main-color: #3ee067 ;
     /*--main-color: #fa5353 ;
     /*--main-color: #fa5353 ;
     --main-color: #0d81ec ;
@@ -332,7 +333,7 @@ header{
 /* Esas sehife ucun css */
 .home{
     position: relative;
-    min-height: 540px;
+    min-height: 590px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -350,8 +351,9 @@ header{
 }
 
 .home-text{
-    padding-right: 28rem;
+    padding-right: 24rem;
     text-align: right;
+    margin-top: 30%;
 }
 
 .home-text h1{
@@ -362,7 +364,7 @@ header{
 }
 
 .btn{
-    background:red;
+    background:rgb(85, 104, 156);
     padding: 15px 20px;
     color: var(--text-color);
     text-transform: uppercase;

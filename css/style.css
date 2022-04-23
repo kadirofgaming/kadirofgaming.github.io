@@ -351,9 +351,9 @@ header{
 }
 
 .home-text{
-    padding-right: 24rem;
+    padding-right: 29rem;
     text-align: right;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .home-text h1{
@@ -364,7 +364,7 @@ header{
 }
 
 .btn{
-    background:rgb(85, 104, 156);
+    background:rgb(228, 18, 18);
     padding: 15px 20px;
     color: var(--text-color);
     text-transform: uppercase;

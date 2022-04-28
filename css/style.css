@@ -331,6 +331,13 @@ header{
   .show {display: block;}
 
 /* Esas sehife ucun css */
+.time{
+    text-decoration: underline;
+    margin-right: 13px;
+    margin-top: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+
 .home{
     position: relative;
     min-height: 590px;
@@ -353,7 +360,7 @@ header{
 .home-text{
     padding-right: 29rem;
     text-align: right;
-    margin-top: 20%;
+    margin-top: 6%;
 }
 
 .home-text h1{

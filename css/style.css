@@ -360,15 +360,10 @@ header{
 .home-text{
     padding-right: 29rem;
     text-align: right;
-    margin-top: 1%;
-    margin-right: 0%;
-    padding-right: 0%;
-    margin-left: 65%;
-    padding-top:-20%;
+    margin-top: 6%;
 }
 
 .home-text h1{
-    
     font-size: 2.4rem;
     text-transform: uppercase;
     color: rgb(5, 118, 194);
@@ -376,15 +371,14 @@ header{
 }
 
 .btn{
-    background:rgb(20, 71, 83);
-    padding-bottom:320px;
+    background:rgb(0, 0, 0);
+    padding: 15px 20px;
     color: var(--text-color);
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 500;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 10% 100%, 0% 68%);
-    margin-top:50px ;
 }
 
 .btn:hover{

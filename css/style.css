@@ -371,7 +371,7 @@ header{
 }
 
 .btn{
-    background:rgb(0, 0, 0);
+    background:rgb(63, 194, 52);
     padding: 15px 20px;
     color: var(--text-color);
     text-transform: uppercase;

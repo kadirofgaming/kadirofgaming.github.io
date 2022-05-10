@@ -14,7 +14,7 @@
 /* Variables */ 
 :root {
     
-    --main-color: #3ee067 ;
+    --main-color: #000000 ;
     /*--main-color: #fa5353 ;
     /*--main-color: #fa5353 ;
     --main-color: #0d81ec ;
@@ -360,7 +360,7 @@ header{
 .home-text{
     padding-right: 29rem;
     text-align: right;
-    margin-top: 19%;
+    margin-top: 33%;
 }
 
 .home-text h1{

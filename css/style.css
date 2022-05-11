@@ -358,7 +358,7 @@ header{
 }
 
 .home-text{
-    padding-right: 29rem;
+    padding-right: 24rem;
     text-align: right;
     margin-top: 33%;
 }
@@ -371,7 +371,7 @@ header{
 }
 
 .btn{
-    background:rgb(63, 194, 52);
+    background:rgb(63, 90, 209);
     padding: 15px 20px;
     color: var(--text-color);
     text-transform: uppercase;

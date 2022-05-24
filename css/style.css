@@ -14,14 +14,14 @@
 /* Variables */ 
 :root {
     
-    --main-color: #000000 ;
+    --main-color: #491818 ;
     /*--main-color: #fa5353 ;
     /*--main-color: #fa5353 ;
     --main-color: #0d81ec ;
     /* Ikinci reng secimi*/
     
     --dark-color: #1b182b ;
-    --light-color: #322f40 ;
+    --light-color: #19434b ;
     --text-color: hsl(0,0%,91%);
 }
 
@@ -336,6 +336,10 @@ header{
     margin-right: 13px;
     margin-top: 17px;
     font-family:'Times New Roman', Times, serif;
+}
+
+.oyunlar{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/540b31b1e4b08734f6c1c2b3/1567141479662-TM9ZJROJGIZ8EYO3OJJ6/Gaming.jpg);
 }
 
 .home{

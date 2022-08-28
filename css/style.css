@@ -81,6 +81,9 @@ header{
 
 
 
+
+
+
 /* Nav */
 .nav {
     display: flex;
@@ -117,7 +120,7 @@ header{
     display: grid;
     place-items: center;
     color: var(--text-color);
-    background: var(--light-color);
+    background:rgb(99, 45, 45);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -166,7 +169,7 @@ header{
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background: var(--light-color);
+    background:rgb(99, 45, 45);
     cursor: pointer;
     z-index: 200;
     transition: 0.3s;

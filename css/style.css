@@ -120,7 +120,7 @@ header{
     display: grid;
     place-items: center;
     color: var(--text-color);
-    background:rgb(99, 45, 45);
+    background: var(--light-color);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -169,7 +169,7 @@ header{
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background:rgb(99, 45, 45);
+    background: var(--light-color);
     cursor: pointer;
     z-index: 200;
     transition: 0.3s;
@@ -536,10 +536,13 @@ header{
 .video-container video{
     width: 100%;
     aspect-ratio: 16/9;
+    
 }
 
 .video-container{
-    margin-top: 5rem;
+    margin-top: 6rem;
+    margin-left: 9rem;
+   
 }
 
 .about{
